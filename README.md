@@ -76,11 +76,17 @@ Your journey will take you through the wildness of the American Midwest and acro
 ```
 
 1. In the **main** module, one of the first lines of code is `const drovers = hireDrovers(cattleToDrive)`. Explain what the value of the `drovers` variable is when that line of code runs.
-   > Your answer here
+
+   > The drover variable is returned from the hireDrovers function in the drovers.Js file. drover starts as an empty array in the hireDrovers function. The allDrovers variable receives database.drovers that has 50 objects. That number gets divided by 10 in line 6 to equal 5 drovers. It then goes through the for loop in lines 8-12 to select 5 random objects from the database.drovers and returns 5 drover objects to the drover variable in main.js.
+
 2. At the bottom of the main module, you will see the following code - `for (const drover of drovers)`. Explain what the values of both the `drover` and the `drovers` variables are.
-   > Your answer here
+   
+   >drover is a variable that loops through the drovers, it is an array object. It stores the data through each iteration of the loop to be used.
+
 3. In the **journey** module, there is a `journeyMaker()` function. In that function, there is a variable named `areas` which will have the value of an object. Use your debugger to show what the value of each key is on that object. Use [Loom](https://www.loom.com) to record your session.
-   > Your public Loom URL here
+
+   > (https://www.loom.com/spaces/All-Gregor-s-Workspace-33434956)
+
 4. Also in the **journey** module, there is the following code:
    ```js
    for (let forestNumber = 0; forestNumber < areas.forests; forestNumber++) {
@@ -88,11 +94,17 @@ Your journey will take you through the wildness of the American Midwest and acro
    }
    ```
    Explain this code with your best vocabulary.
-   > Your answer here
+
+   > The code above is a for loop with the variable forestNumber set to 0. forestNumber is less then areas.forests, forestNumber is incrementing, while doing that it executes the code below. The code inside the curly brackets will add "forest" into the end of the journey array. forestNumber will continue to increment until it is not less than 
+   areas.forests 
+
 5. Explain the value of the `database` variable in the **database** module. Be as comprehensive as possible.
-   > Your answer here
+
+   > database is a object that stores the drovers and cattleType as arrays. Inside those arrays are objects that have keys. The keys for cattleType are Id and Breed. For Drovers, the keys are Id, first_name, last_name and gender.
+
 6. In the **drovers** module, there is a `hireDrovers()` function. You will notice the following code on that line - `(herdSize)`. What is that defining, and where does it get its value?
-   > Your answer here
+
+   > herdSize is the parameter. The argument is cattleToDrive. The argument only gets passed when you run hireDrovers()
 
 ## When You Are Done
 
