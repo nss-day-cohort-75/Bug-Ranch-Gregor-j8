@@ -85,7 +85,7 @@ Your journey will take you through the wildness of the American Midwest and acro
 
 3. In the **journey** module, there is a `journeyMaker()` function. In that function, there is a variable named `areas` which will have the value of an object. Use your debugger to show what the value of each key is on that object. Use [Loom](https://www.loom.com) to record your session.
 
-   > (https://www.loom.com/spaces/All-Gregor-s-Workspace-33434956)
+   > (https://www.loom.com/share/a444d31a169945789b98d98e8246c6ae)
 
 4. Also in the **journey** module, there is the following code:
    ```js
@@ -100,7 +100,7 @@ Your journey will take you through the wildness of the American Midwest and acro
 
 5. Explain the value of the `database` variable in the **database** module. Be as comprehensive as possible.
 
-   > database is a object that stores the drovers and cattleType as arrays. Inside those arrays are objects that have keys. The keys for cattleType are Id and Breed. For Drovers, the keys are Id, first_name, last_name and gender.
+   > database is an object that stores the drovers and cattleType as arrays. Inside those arrays are objects that have keys. The keys for cattleType are Id and Breed. For Drovers, the keys are Id, first_name, last_name and gender.
 
 6. In the **drovers** module, there is a `hireDrovers()` function. You will notice the following code on that line - `(herdSize)`. What is that defining, and where does it get its value?
 
